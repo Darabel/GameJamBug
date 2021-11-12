@@ -6,7 +6,7 @@ public class Collected : MonoBehaviour
 {
    [SerializeField] Color32 hasFoodColor = new Color32 (255, 255, 255, 255);
    [SerializeField] Color32 noFoodColor = new Color32 (255, 255, 255, 255);
-   bool hasFood;
+   public bool hasFood;
    float destroyDelay = 0.5f;
 
    SpriteRenderer spriteRenderer;
